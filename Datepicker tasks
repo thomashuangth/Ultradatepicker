@@ -1,0 +1,23 @@
+DATEPICKER
+
+Visuel :
+X Boutons Précédent Suivant immobile
+X Date séléctionnée doit être présélectionnée
+
+Fonctionnel :
+X Plusieurs instances du datepicker
+X Mois/Année Selectionnable
+X Supprimer les cases inutiles
+X Rendre les dates traductibles
+X Option par datepicker pour choisir le premier jour de la semaine
+X Choix du format (jj/mm/yyyy etc...)
+X Possibilité de choisir la date en tapant directement la dates
+
+===================================================================================
+
+- Gestion de format chiffré seulement (Format américain etc... Date.ToString maybe)
+- Input field rouge si invalid input
+- Fermeture sur click out
+- Suppression de l'autocomplete
+- Navigation clavier et entrée sans envoie du formulaire
+- Lib Full JS
