@@ -359,7 +359,6 @@ function affiche(shift, $this)
 		else 
 		{
 			emptycase += 1;
-			td[i].style.background = "none";
 		}
 		if(td[i].innerHTML == today && monthnumber == thismonth+1 && yearnumber == thisyear)
 		{
@@ -368,7 +367,6 @@ function affiche(shift, $this)
 		}
 		else
 		{
-			td[i].style.background = "rgba(200,200,200,0.3);";
 			td[i].style.color = "white";
 		}
 		

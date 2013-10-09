@@ -76,6 +76,11 @@
 			padding: 3px;
 			-webkit-appearance: none;
 		}
+		.generator select {
+			width: 100px;
+			height: 30px;
+			margin: 10px;
+		}
 		select option {
 			color: black;
 			border: none;
@@ -92,6 +97,7 @@
 			border-collapse: collapse;
 			font-size: 14px;
 			margin: auto;
+			background: rgba(200,200,200,0.3);
 		}
 		th {
 			white-space: nowrap;
@@ -100,7 +106,6 @@
 		td {
 			width: 35px;
 			height: 30px;
-			background: rgba(200,200,200,0.3); 
 		}
 		.selected {
 			transition: all 0.1s ease-in-out;
@@ -109,7 +114,7 @@
 		.hov:hover {
 			transition: all 0.1s ease;
 			cursor: pointer;
-			background: rgba(150,150,150,0.5) !important;
+			background: rgba(200,200,200,0.5);
 		}
 		.description {
 			font-size: 14px;
