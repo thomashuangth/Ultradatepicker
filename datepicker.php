@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Ultra datepicker</title>
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="jquery-1.10.2.min.js"></script>
 	</head>
 	<body>
 		<style>
